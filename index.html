@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bs-example">
+      <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              data-target="#navbarCollapse"
+              data-toggle="collapse"
+              class="navbar-toggle"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">MEDICINE</a>
+          </div>
+          <!-- Collection of nav links, forms, and other content for toggling -->
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li class="dropdown">
+                <a href="./services.html" data-toggle="dropdown" class="dropdown-toggle" href="#"
+                  >services <b class="caret"></b
+                ></a>
+                <ul role="menu" class="dropdown-menu">
+                  <li><a href="./services01.html">Service 01</a></li>
+                  <li><a href="./services02.html">Service 02</a></li>
+                  <li><a href="./services03.html">Service 03</a></li>
+                </ul>
+              </li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img
+            src="images/slider_01.jpg"
+            alt="Chania"
+            width="460"
+            height="345"
+            data-aos="fade-in"
+          />
+          <div
+            class="carousel-caption"
+            data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2 data-aos="fade-up">MEDICINE CENTER ON THE GO!</h2>
+            <p data-aos="fade-up">
+              With the new Medicine Centre app, the high-quality service that we
+              are known for is now available via your smartphone. Available on
+              the App Store and Google Play
+            </p>
+            <button type="button" class="btn btn-primary">Read More</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img
+            src="images/slider_02.jpg"
+            alt="Chania"
+            width="460"
+            height="345"
+            data-aos="fade-in"
+          />
+          <div class="carousel-caption" data-aos="fade-up">
+            <h2 data-aos="fade-up">MEDICINE CENTER ON THE GO!</h2>
+            <p data-aos="fade-up">
+              With the new Medicine Centre app, the high-quality service that we
+              are known for is now available via your smartphone. Available on
+              the App Store and Google Play
+            </p>
+            <button type="button" class="btn btn-primary">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a
+        class="left carousel-control"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-left"
+          aria-hidden="true"
+        ></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="right carousel-control"
+        href="#myCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-right"
+          aria-hidden="true"
+        ></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="services container">
+      <div
+        class="col-sm-4 service_01"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="200"
+      >
+        <img
+          src="images/service_01.png"
+          alt=""
+          data-aos="zoom-in"
+          data-aos-delay="1000"
+        />
+        <h3>NEUROLOGY CARE</h3>
+        <p>
+          Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          nullam nunc justo sagittis suscipit ultrices.
+        </p>
+      </div>
+      <div
+        class="col-sm-4 service_02"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="200"
+      >
+        <img
+          src="images/service_02.png"
+          alt=""
+          data-aos="zoom-in"
+          data-aos-delay="1000"
+        />
+        <h3>CARDIOLOGY CARE</h3>
+        <p>
+          Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          nullam nunc justo sagittis suscipit ultrices.
+        </p>
+      </div>
+      <div
+        class="col-sm-4 service_03"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="200"
+      >
+        <img
+          src="images/service_03.png"
+          alt=""
+          data-aos="zoom-in"
+          data-aos-delay="1000"
+        />
+        <h3>UROLOGY CARE</h3>
+        <p>
+          Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          nullam nunc justo sagittis suscipit ultrices.
+        </p>
+      </div>
+    </div>
+    <div class="pharmacy container mar50">
+      <div
+        class="pharmacy_cap"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="500"
+      >
+        <h3>A MODERN, FULL-SERVICE PHARMACY</h3>
+        <p>
+          At Medicine Center Compounding Pharmacy, we believe health is not just
+          the absence of disease, but a state of immense vitality. It is our
+          mission to help you feel better, live longer, and become the best
+          possible you!
+        </p>
+      </div>
+      <div class="row pham_head container">
+        <div class="col-md-6">
+          <div
+            class="pham_ser"
+            data-aos="zoom-out"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <img src="images/service01.png" />
+            <div class="pham_cap">
+              <h4>NEUROLOGICAL</h4>
+              <p>
+                Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit nullam nunc justo sagittis suscipit ultrices.
+              </p>
+            </div>
+          </div>
+          <div
+            class="pham_ser"
+            data-aos="zoom-out"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <img src="images/service02.png" />
+            <div class="pham_cap">
+              <h4>NEUROLOGICAL</h4>
+              <p>
+                Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit nullam nunc justo sagittis suscipit ultrices.
+              </p>
+            </div>
+          </div>
+          <div
+            class="pham_ser"
+            data-aos="zoom-out"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <img src="images/service03.png" />
+            <div class="pham_cap">
+              <h4>NEUROLOGICAL</h4>
+              <p>
+                Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit nullam nunc justo sagittis suscipit ultrices.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pham_img">
+          <img
+            src="images/pharmacy_banner01.jpg"
+            data-aos="zoom-out"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="depart_sec">
+      <div
+        class="depart_cap pad50 container"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="500"
+      >
+        <h3>OUR DEPARTMENT</h3>
+        <p>
+          Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          nullam nunc justo sagittis suscipit ultrices.
+        </p>
+        <div class="depart_care">
+          <div
+            class="col-md-2 col-sm-4 col-xs-6"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <img src="images/service_01.png" />
+            <h4>HEART CARE</h4>
+          </div>
+          <div
+            class="col-md-2 col-sm-4 col-xs-6"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <img src="images/service_02.png" />
+            <h4>NEUROLOGY</h4>
+          </div>
+          <div
+            class="col-md-2 col-sm-4 col-xs-6"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <img src="images/service_03.png" />
+            <h4>EAR CARE</h4>
+          </div>
+          <div
+            class="col-md-2 col-sm-4 col-xs-6"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <img src="images/service_04.png" />
+            <h4>DENTAL CARE</h4>
+          </div>
+          <div
+            class="col-md-2 col-sm-4 col-xs-6"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <img src="images/service_01.png" />
+            <h4>EMERGENCY</h4>
+          </div>
+          <div
+            class="col-md-2 col-sm-4 col-xs-6"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <img src="images/service_02.png" />
+            <h4>LASER EYE CARE</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row heart_care container mar50">
+      <div
+        class="col-md-6"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <img src="images/heart_care.jpg" alt="" />
+      </div>
+      <div
+        class="col-md-6"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <h3>CARE OF HEART</h3>
+        <p>
+          For nearly 25 years, thousands of medical practitioners throughout the
+          state of Utah have exclusively referred patients to Medicine Center
+          Compounding Pharmacyfor their compounded medications. This is due to
+          the combination of outstanding service, price, and quality. At
+          Medicine Center, quality is paramount. For that reason, we use cutting
+          edge technology, state-of-the-art equipment, innovative bases and some
+          of the most unique dosage forms our industry has to offer.
+        </p>
+      </div>
+    </div>
+    <div class="wecare_sec">
+      <div
+        class="wecare_cap pad50 container"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="500"
+      >
+        <h3>WE CARE</h3>
+        <p>
+          Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          nullam nunc justo sagittis suscipit ultrices.
+        </p>
+        <div class="row we_care_head">
+          <div
+            class="we_care col-md-4"
+            data-aos="slide-right"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+           <figure> <img src="images/health_care.jpg" /></figure>
+            <div class="wecare">
+              <h4>CHILD CARE</h4>
+              <p>
+                Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit nullam nunc justo sagittis suscipit ultrices.
+              </p>
+              <p><a>Read More</a></p>
+            </div>
+          </div>
+          <div
+            class="we_care col-md-4"
+            data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+          <figure><img src="images/health_care.jpg" /></figure>
+            <div class="wecare">
+              <h4>CHILD CARE</h4>
+              <p>
+                Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit nullam nunc justo sagittis suscipit ultrices.
+              </p>
+              <p><a>Read More</a></p>
+            </div>
+          </div>
+          <div
+            class="we_care col-md-4 "
+            data-aos="slide-left"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+          <figure><img src="images/health_care.jpg" /></figure>
+            <div class="wecare">
+              <h4>CHILD CARE</h4>
+              <p>
+                Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit nullam nunc justo sagittis suscipit ultrices.
+              </p>
+              <p><a>Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="global_sec pad50">
+      <div class="container">
+        <h3>GLOBAL PRESENCE</h3>
+        <p>
+          Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          nullam nunc justo sagittis suscipit ultrices.
+        </p>
+        <img
+          src="images/global.png"
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        />
+      </div>
+    </div>
+    <div class="our_list container mar50">
+      <h3 data-aos="zoom-in">OUR SPECIALISTS</h3>
+      <p data-aos="zoom-in">
+        Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        nullam nunc justo sagittis suscipit ultrices.
+      </p>
+      <div class="row">
+        <div
+          class="col-sm-4"
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
+          <img src="images/doctor_01.png" />
+          <div class="doctor_cap01">
+            <h4>DR MARRY HUDSON</h4>
+            <p>Sample Text</p>
+          </div>
+        </div>
+        <div
+          class="col-sm-4"
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
+          <img src="images/doctor_02.png" />
+          <div class="doctor_cap02">
+            <h4>DR MARRY HUDSON</h4>
+            <p>Sample Text</p>
+          </div>
+        </div>
+        <div
+          class="col-sm-4"
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
+          <img src="images/doctor_03.png" />
+          <div class="doctor_cap03">
+            <h4>DR MARRY HUDSON</h4>
+            <p>Sample Text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact_form pad50">
+      <div
+        class="container"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <h3>GET IN TOUCH</h3>
+        <p>
+          Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          nullam nunc justo sagittis suscipit ultrices.
+        </p>
+        <form action="/action_page.php">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="text"
+              placeholder="Enter Your Name"
+              name="text"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter Your email"
+              name="email"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              rows="5"
+              id="comment"
+              placeholder="Enter Your Message"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-default">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+    <footer class="pad50">
+      <div
+        class="container"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <p data-aos="zoom-in">Copyright @2022</p>
+      </div>
+    </footer>
+    <button class="btn btn-primary scroll-top" data-scroll="up" type="button">
+      <i class="fa fa-chevron-up"></i>
+    </button>
+    <script>
+      $(window).scroll(function () {
+        $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+            $(".scroll-top").fadeIn();
+          } else {
+            $(".scroll-top").fadeOut();
+          }
+        });
+
+        $(".scroll-top").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            2000
+          );
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>
