@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Roboto&display=swap");
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+  text-shadow: none;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 16px;
+  text-shadow: none;
+}
+header {
+  background: rgba(255, 255, 255, 0.5);
+}
+.navbar-default .navbar-brand
+{
+  color: #000;
+    font-size: 25px;
+}
+.btn-primary {
+  background-color: #4c637f;
+  border-color: #4c637f;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-shadow: none;
+}
+.btn-primary:hover {
+  background-color: #3e4a59;
+  border-color: #3e4a59;
+}
+.bg-custom-1 {
+  background-color: #85144b;
+}
+
+.bg-custom-2 {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default {
+  transition: 500ms ease;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px 0px;
+  border: none;
+}
+.navbar-default.scrolled {
+  background: #fff;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+  font-size: 18px;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #337ab7;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+}
+body {
+  overflow-x: hidden;
+}
+.aos-init:not(.aos-animate):after {
+  position: fixed;
+}
+.carousel-caption {
+  max-width: 800px;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  padding-bottom: 28px;
+  top: 40%;
+  bottom: 0;
+  padding-top: 0;
+}
+.carousel-indicators {
+  display: none;
+}
+.carousel-caption h2 {
+  margin-top: 0px;
+  font-size: 50px;
+  color: #3e4a59;
+}
+.carousel-caption p {
+  color: #3e4a59;
+}
+.inner_banner img{
+  max-height: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.services {
+  margin-top: -10%;
+  color: #ffffff;
+}
+.service_01 {
+  background-color: #ccd3db;
+  text-align: center;
+  padding: 60px 20px;
+}
+.service_02 {
+  background-color: #858e99;
+  text-align: center;
+  padding: 60px 20px;
+}
+.service_03 {
+  background-color: #555d66;
+  text-align: center;
+  padding: 60px 20px;
+}
+.pharmacy_cap {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.mar50 {
+  margin: 50px auto !important;
+}
+.pad50 {
+  padding: 50px 0px;
+}
+.pham_ser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pham_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pham_img img {
+  width: 100%;
+}
+.pham_cap {
+  padding: 25px;
+}
+.pham_cap h4 {
+  font-size: 20px;
+}
+.depart_sec {
+  background-color: #858e99;
+  color: #ffffff;
+}
+.depart_sec {
+  text-align: center;
+}
+.depart_care {
+  padding: 30px 0px;
+}
+
+.wecare_sec {
+  background-color: #e0e5eb;
+}
+.global_sec {
+  background-color: #555d66;
+  color: #ffffff;
+  text-align: center;
+}
+.wecare_cap {
+  text-align: center;
+}
+.wecare {
+  padding: 20px 15px;
+  text-align: center;
+}
+.we_care figure {
+  overflow: hidden;
+}
+.wecare h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+.we_care_head {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.we_care {
+  padding: 10px;
+  background-color: #ffffff;
+}
+.we_care a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.our_list {
+  text-align: center;
+}
+.our_list img {
+  max-width: 250px;
+}
+.doctor_cap01 {
+  background-color: #ccd3db;
+  padding: 10px 0px;
+}
+.doctor_cap02 {
+  background-color: #858e99;
+  padding: 10px 0px;
+}
+.doctor_cap03 {
+  background-color: #555d66;
+  padding: 10px 0px;
+}
+.contact_form {
+  text-align: center;
+  background-color: #858e99;
+}
+.contact_form p {
+  width: 50%;
+  margin: 15px auto;
+}
+.contact_form form {
+  width: 60%;
+  margin: 15px auto;
+}
+.contact_form input {
+  background-color: #555d66;
+  border-color: #555d66;
+  border-radius: 0em;
+  color: #ffffff;
+  font-size: 16px;
+}
+.contact_form textarea {
+  background-color: #555d66;
+  border-color: #555d66;
+  border-radius: 0em;
+  color: #ffffff;
+  font-size: 16px;
+}
+.contact_form button {
+  border-radius: 0em;
+  border-radius: 0em;
+  padding: 10px 20px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+}
+.contact_form button:hover {
+  background-color: #ccd3db;
+}
+.form-control:focus {
+  border-color: #000000;
+  box-shadow: none;
+}
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+}
+.global_sec img {
+  width: 100%;
+}
+.heart_care img {
+  width: 100%;
+}
+.scroll-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  display: none;
+}
+.scroll-top i {
+  display: inline-block;
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-caption {
+    right: 0%;
+    left: 0;
+    padding-bottom: 28px;
+    top: 35%;
+    bottom: 0;
+    padding-top: 0;
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption {
+    right: 0%;
+    left: 0;
+    padding-bottom: 28px;
+    top: 30%;
+    bottom: 0;
+    padding-top: 0;
+    max-width: 500px;
+  }
+  .carousel-caption h2 {
+    font-size: 30px;
+  }
+  .carousel-caption p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .services {
+    margin-top: 0;
+  }
+
+  .heart_care {
+    display: block;
+  }
+  .heart_care img {
+    width: 100%;
+  }
+  .pham_head {
+    display: block;
+  }
+}
+@media screen and (max-width: 550px) {
+  .carousel-caption {
+    max-width: 400px;
+  }
+  .carousel-caption h2 {
+    font-size: 20px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
